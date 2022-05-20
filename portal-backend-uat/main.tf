@@ -25,7 +25,7 @@ resource "kubernetes_deployment" "portal-backend-uat" {
       }
       spec {
         container {
-          image = "430029778150.dkr.ecr.us-east-1.amazonaws.com/pn-portal-backend:52bf0f05d82e6577178dfb254fc568b654a2297e"
+          image = "430029778150.dkr.ecr.us-east-1.amazonaws.com/pn-portal-backend:a98a99516f9cd476c9d7b8e26caa2eb3ef37c19b"
 
           name  = "portal-backend-uat"
           port {
